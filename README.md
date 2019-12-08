@@ -28,6 +28,16 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
+#### Problem 62
+This problem was asked by Facebook.
+
+There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+
+Right, then down
+Down, then right
+Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 #### Problem 63
 This problem was asked by Microsoft.
