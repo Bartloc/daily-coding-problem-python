@@ -158,6 +158,12 @@ Given an array of elements, return the length of the longest subarray where all 
 
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 
+### Problem 194
+This problem was asked by Facebook.
+
+Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+
 #### Problem 198
 This problem was asked by Google.
 
