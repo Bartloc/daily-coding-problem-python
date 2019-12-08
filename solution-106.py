@@ -4,7 +4,7 @@ def can_reach_end(jump):
     for j in range(len(jump)):
         for i in range(j+1,len(jump)):
             if how_far[j]>-1 and j+jump[j]>=i:
-                #not necessary but...
+                #min not necessary but... find also minimum path - for future use
                 how_far[i]=j if how_far[i]==-1 else min(how_far[i],j)
     return True if how_far[-1]>-1 else False
 
