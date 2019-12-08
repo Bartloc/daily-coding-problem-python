@@ -213,6 +213,11 @@ Given a string of parentheses, find the balanced string that can be produced fro
 For example, given `"(()"`, you could return `"(())"`. Given `"))()("`, you could return `"()()()()"`.
 
 
+#### Problem 205
+This problem was asked by IBM.
+
+Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
+
 #### Problem 206
 This problem was asked by Twitter.
 
