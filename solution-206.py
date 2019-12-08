@@ -1,6 +1,6 @@
-def reorder(nset,perm):
-    return [x[1] for x in (sorted(zip(perm,nset)))]
+arr=['a', 'b', 'c']
+perm=[3, 0, 1, 2]
 
-reorder(nset,perm)
-assert reorder(["a", "b", "c"],[2, 1, 0])==["c", "b", "a"]
-assert reorder(['a', 'b', 'c', 'd'],[3, 0, 1, 2])==['b', 'c', 'd', 'a']
+apply_arr_to_perm=lambda arr,perm:[x[1] for x in (sorted(zip(perm,arr)))]
+
+assert apply_arr_to_perm(['a','b','c'],[2,1,0])==['c','b','a']
