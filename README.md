@@ -58,6 +58,13 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
+#### Problem 106
+This problem was asked by Pinterest.
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+
+For example, [2, 0, 1, 0] returns true while [1, 1, 0, 1] returns false.
+
 #### Problem 175
 
 This problem was asked by Google.
