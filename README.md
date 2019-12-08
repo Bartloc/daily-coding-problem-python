@@ -144,6 +144,14 @@ Given an array of elements, return the length of the longest subarray where all 
 
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 
+#### Problem 198
+This problem was asked by Google.
+
+Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset (i, j) satisfies either i % j = 0 or j % i = 0.
+
+For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
+
+
 #### Problem 199
 
 This problem was asked by Facebook.
