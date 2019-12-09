@@ -51,6 +51,23 @@ This problem was asked by Two Sigma.
 
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
+
+#### Problem 50
+This problem was asked by Microsoft.
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+You should return 45, as it is (3 + 2) * (4 + 5).
+
 #### Problem 62
 This problem was asked by Facebook.
 
