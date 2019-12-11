@@ -7,7 +7,6 @@ def rearrange(s):
     str1,str2 = (str2,str1) if len(str2)>len(str1) else (str1,str2)
 
     if len(str1)-len(str2)>1:
-       
         a=(len(str1)-len(str2))//2
         str2=str2+str1[:a]
         str1=str1[a:]
