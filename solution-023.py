@@ -1,5 +1,4 @@
 def minMazePath(maze,start,end):
-    
     def markPath(a,pos):
         sy,sx=pos
         if sy-1>=0 and  a[sy-1][sx] >= a[sy][sx]:
