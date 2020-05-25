@@ -29,8 +29,9 @@ def dec(stri):
             temp = s * int(numb)
             outstri = outstri + temp
             numb = ''
+
     return outstri
 
 
-assert enc('AAAABBBCCDAA')=='4A3B2C1D2A'
-assert dec('4A3B2C1D2A')=='AAAABBBCCDAA'
+assert enc('AAAABBBCCDAA') == '4A3B2C1D2A'
+assert dec('4A3B2C1D2A') == 'AAAABBBCCDAA'
